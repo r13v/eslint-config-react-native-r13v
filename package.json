@@ -1,0 +1,19 @@
+{
+  "name": "react-native-r13v",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rustam Gilyaziev",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r13v/eslint-config-react-native-r13v.git"
+  },
+  "bugs": {
+    "url": "https://github.com/r13v/eslint-config-react-native-r13v/issues"
+  },
+  "homepage": "https://github.com/r13v/eslint-config-react-native-r13v#readme",
+  "description": ""
+}
