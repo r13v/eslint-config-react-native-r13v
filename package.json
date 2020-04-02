@@ -1,12 +1,13 @@
 {
   "name": "react-native-r13v",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint -c index.js tests/*.tsx --fix",
+    "release": "semantic-release"
   },
-  "author": "Rustam Gilyaziev",
-  "license": "ISC",
+  "author": "Rustam Gilyaziev <gilaziev@gmail.com>",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/r13v/eslint-config-react-native-r13v.git"
@@ -15,5 +16,20 @@
     "url": "https://github.com/r13v/eslint-config-react-native-r13v/issues"
   },
   "homepage": "https://github.com/r13v/eslint-config-react-native-r13v#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "semantic-release": "^17.0.4"
+  },
+  "dependencies": {
+    "@react-native-community/eslint-config": "^1.0.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-unicorn": "^18.0.1",
+    "typescript": "^3.8.3"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-native": ">=0.60.0"
+  }
 }
