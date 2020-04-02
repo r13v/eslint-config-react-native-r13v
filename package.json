@@ -3,8 +3,7 @@
   "version": "0.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "eslint -c index.js tests/*.tsx --fix",
-    "release": "semantic-release"
+    "test": "eslint -c index.js tests/*.tsx --fix"
   },
   "author": "Rustam Gilyaziev <gilaziev@gmail.com>",
   "license": "MIT",
@@ -18,8 +17,7 @@
   "homepage": "https://github.com/r13v/eslint-config-react-native-r13v#readme",
   "description": "",
   "devDependencies": {
-    "eslint": "^6.8.0",
-    "semantic-release": "^17.0.4"
+    "eslint": "^6.8.0"
   },
   "dependencies": {
     "@react-native-community/eslint-config": "^1.0.0",
