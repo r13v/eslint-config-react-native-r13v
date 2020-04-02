@@ -1,5 +1,5 @@
 {
-  "name": "react-native-r13v",
+  "name": "eslint-config-react-native-r13v",
   "version": "0.0.0-development",
   "main": "index.js",
   "scripts": {
