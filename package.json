@@ -10,7 +10,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/r13v/eslint-config-react-native-r13v.git"
+    "url": "https://github.com/r13v/eslint-config-react-native-r13v.git"
   },
   "bugs": {
     "url": "https://github.com/r13v/eslint-config-react-native-r13v/issues"
