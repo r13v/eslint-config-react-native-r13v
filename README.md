@@ -6,7 +6,7 @@
 yarn add -D eslint-config-react-native-r13v
 ```
 
-In `.eslintrc.json`:
+In `.eslintrc.js`:
 
 ```js
 module.exports = {
