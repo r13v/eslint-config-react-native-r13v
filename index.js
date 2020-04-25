@@ -17,7 +17,6 @@ module.exports = {
     "@react-native-community",
     "plugin:import/errors",
     "plugin:import/warnings",
-    "plugin:import/typescript",
     "plugin:promise/recommended",
     "plugin:unicorn/recommended",
     "plugin:sonarjs/recommended",
@@ -25,11 +24,8 @@ module.exports = {
 
   settings: {
     "import/resolver": {
-      node: {
-        paths: [path.resolve(__dirname, ".")],
-      },
+      typescript: {},
     },
-    "import/extensions": [".js", ".jsx", ".ts", ".tsx"],
   },
 
   rules: {

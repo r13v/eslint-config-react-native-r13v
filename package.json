@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-react-native-r13v",
-  "version": "0.0.0-development",
+  "version": "1.2.3",
   "main": "index.js",
   "scripts": {
     "test": "eslint -c index.js tests/*.tsx --fix",
@@ -24,6 +24,8 @@
   },
   "dependencies": {
     "@react-native-community/eslint-config": "^1.1.0",
+    "@typescript-eslint/parser": "^2.29.0",
+    "eslint-import-resolver-typescript": "^2.0.0",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-sonarjs": "^0.5.0",
@@ -31,8 +33,8 @@
     "typescript": "^3.8.3"
   },
   "peerDependencies": {
+    "eslint": ">=6.8.0",
     "react": ">=16.11.0",
-    "react-native": ">=0.60.0",
-    "eslint": ">=6.8.0"
+    "react-native": ">=0.60.0"
   }
 }
