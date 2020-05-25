@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-react-native-r13v",
-  "version": "1.2.5",
+  "version": "1.2.7",
   "main": "index.js",
   "scripts": {
     "test": "eslint -c index.js tests/*.tsx --fix",
