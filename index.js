@@ -11,7 +11,7 @@ module.exports = {
     __DEV__: true,
   },
 
-  plugins: ["import", "promise", "unicorn"],
+  plugins: ["import", "promise", "unicorn", "formatjs"],
 
   extends: [
     "@react-native-community",
@@ -144,5 +144,10 @@ module.exports = {
     // promise
     "promise/prefer-await-to-then": "error",
     "promise/prefer-await-to-callbacks": "error",
+
+    // format js
+    "formatjs/enforce-default-message": ["error", "literal"],
+    "formatjs/no-multiple-whitespaces": "error",
+    "formatjs/no-multiple-plurals": "error",
   },
 };
